@@ -19,7 +19,7 @@
 # git lfs untrack "*.docx"
 # git lfs untrack "*.epub"
 
-files=( $(find ./ -type f) )   # Find all files in the current directory and subdirectories
+files=( $(find ./HE2_files -type f) )   # Find all files in the current directory and subdirectories
 # files=( $(find ./CD3_files -type f) )
 
 batch_size=2000                 # Define the batch size
